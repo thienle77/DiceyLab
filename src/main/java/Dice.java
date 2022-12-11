@@ -8,7 +8,7 @@ public class Dice {
         this.numDice = numDice;
     }
 
-    public int rollDice (){
+    public Integer roll (){
         Random random = new Random();
         int sum = 0;
         for(int i = 0; i < numDice; i++){
